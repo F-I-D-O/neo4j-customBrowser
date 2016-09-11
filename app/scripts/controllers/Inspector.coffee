@@ -31,7 +31,7 @@ angular.module('neo4jApp.controllers')
       $scope.arrowWidths = graphStyle.defaultArrayWidths()
       $scope.colors = graphStyle.defaultColors()
       $scope.currentItem = null
-      $scope.inspectorContracted = yes
+      $scope.inspectorContracted = no
       $scope.inspectorChanged = no
       $scope.inspectorFixed = no
 

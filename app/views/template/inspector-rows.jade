@@ -17,7 +17,7 @@ script(id="inspector/graphItem.html", type="text/ng-template")
       .value(ng-bind="item.id")
     li.pair(ng-repeat='property in item.propertyList')
       .key(ng-bind-template="{{property.key}}: ")
-      .value(ng-bind="property.value")
+      .value(ng-bind-html="property.value")
 
 script(id="inspector/label.html", type="text/ng-template")
   ul.list-inline
